@@ -9,7 +9,7 @@ const onClick = () => {
   window.dispatchEvent(event)
 }
 export default () => (
-  <button type="button" onClick={onClick}>
+  <button id="root" type="button" onClick={onClick}>
     Click me!
   </button>
 )

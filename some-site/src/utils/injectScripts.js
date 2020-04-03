@@ -32,7 +32,7 @@ let oldReactInjected = false
     a.id = "ve-tag"
     a.type = "text/javascript"
     a.async = !0
-    a.src = "//http://localhost:3000/static/js/bundle.js"
+    a.src = "//localhost:3000/static/js/bundle.js"
     var b = document.getElementsByTagName("head")[0]
     if (b) {
       // console.log("[dbg]: appending to <head>")

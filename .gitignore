@@ -77,7 +77,7 @@ some-site/**/.yarn-integrity
 ##########################################################
 
 # dependencies
-wrapped-app/**//node_modules
+wrapped-app/**/node_modules
 wrapped-app/**/.pnp
 wrapped-app/**/.pnp.js
 

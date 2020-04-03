@@ -1,0 +1,33 @@
+{
+  "name": "coexisting-react",
+  "version": "1.0.0",
+  "description": "testsite to test how different React versions (+ styles) can coexist in a same site",
+  "main": "index.js",
+  "scripts": {
+    "install-site": "cd some-site && yarn install",
+    "install-app": "cd wrapped-app && yarn install",
+    "install": "concurrently \"yarn run install-site\" \"yarn run install-app\"",
+    "dev-site": "cd some-site && yarn run develop",
+    "dev-app": "cd wrapped-app && yarn run start",
+    "dev": "concurrently \"yarn run dev-site\" \"yarn run dev-app\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebikandi001/coexisting-react.git"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "css"
+  ],
+  "author": "Eneko Bikandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebikandi001/coexisting-react/issues"
+  },
+  "homepage": "https://github.com/ebikandi001/coexisting-react#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

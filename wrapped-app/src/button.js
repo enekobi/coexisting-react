@@ -12,7 +12,7 @@ export default () => {
   };
   return (
     <>
-      <button id="root" type="button" onClick={handleClick}>
+      <button type="button" onClick={handleClick}>
         Get versions
       </button>
       {versions.bundle && (

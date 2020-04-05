@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./appContainer.css"
 
 const COLORS = ["aquamarine", "sandybrown"]
 export default () => {
@@ -15,15 +16,15 @@ export default () => {
   return (
     <>
       <h1>Click button to refresh React version logs:</h1>
-      <button id="root" type="button" onClick={handleClick}>
-        Click me!
-      </button>
-      {versions.bundle && (
-        <div id="nko-log" style={{ backgroundColor: color }}>
-          <h3>Site: {versions.bundle}</h3>
-          <h3>Global: {versions.global}</h3>
+      <div className="container">
+        <div id="root" onClick={handleClick}>
+          Click me!
         </div>
-      )}
+        <div id="nko-log" style={{ backgroundColor: color }}>
+          <h3>Site: {versions?.bundle}</h3>
+          <h3>Global: {versions?.global}</h3>
+        </div>
+      </div>
     </>
   )
 }

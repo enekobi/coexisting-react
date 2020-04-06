@@ -5,5 +5,6 @@ A project to test how different React versions can coexist in a same site. The p
 ##Issues
 
 1. Styles
-2. Element ids
-3. Race condition when attaching app to site's #root elem.
+2. Wathc out with assets. Could not added to the bundle by default
+3. Element ids
+4. Race condition when attaching app to site's #root elem.

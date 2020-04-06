@@ -68,7 +68,28 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script
+        id="old-react"
+        src="http://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"
+        type="text/javascript"
+      />
+      <script
+        id="app"
+        src="http://localhost:3000/static/js/bundle.js"
+        type="text/javascript"
+      />
+      <script
+        id="chunk"
+        src="http://localhost:3000/static/js/0.chunk.js"
+        type="text/javascript"
+      />
+      <script
+        id="main-chunk"
+        src="http://localhost:3000/static/js/main.chunk.js"
+        type="text/javascript"
+      />
+    </Helmet>
   )
 }
 

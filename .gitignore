@@ -72,6 +72,8 @@ some-site/**/.pnp.js
 # Yarn Integrity file
 some-site/**/.yarn-integrity
 
+# Build
+some-site/**//build
 
 #########################################################
 ##    WRAPPED-APP

@@ -72,8 +72,6 @@ some-site/**/.pnp.js
 # Yarn Integrity file
 some-site/**/.yarn-integrity
 
-# Build
-some-site/**//build
 
 #########################################################
 ##    WRAPPED-APP
@@ -100,3 +98,6 @@ wrapped-app/**/.env.production.local
 wrapped-app/**/npm-debug.log*
 wrapped-app/**/yarn-debug.log*
 wrapped-app/**/yarn-error.log*
+
+# build
+wrapped-app/**/build

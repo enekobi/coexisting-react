@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-console.log('waiting');
+console.log('[App]: waiting');
 
 setTimeout(() => {
-  console.log('Attaching app');
+  console.log('[App]: Attaching');
   ReactDOM.render(
     <React.StrictMode>
       <App />

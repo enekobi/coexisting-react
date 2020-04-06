@@ -2,6 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  color: saddlebrown !important;
 }
 body {
   margin: 0;
@@ -188,6 +189,7 @@ html {
   font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  font-weight: bolder;
 }
 * {
   box-sizing: inherit;
@@ -201,7 +203,7 @@ html {
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
-  font-weight: normal;
+  /* font-weight: normal; */
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -619,4 +621,20 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.app-overwriteparent {
+  background-color: black;
+  color: yellow;
+  padding: 15px;
+}
+
+.app-overwritechild {
+  font-size: 30px;
+  border: solid;
+  background-color: yellowgreen;
+  color: red;
+}
+
+.site-overwrite {
 }

@@ -18,7 +18,22 @@ export default () => {
       <h1>Click button to refresh React version logs:</h1>
       <div className="container">
         <div id="root" onClick={handleClick}>
-          Click me!
+          <div
+            style={{
+              backgroundColor: "lightgrey",
+              marginBottom: "5px",
+            }}
+          >
+            Click me for check local site!
+          </div>
+          <iframe
+            src="https://simple-msg.netlify.app/index.html"
+            style={{
+              border: "solid green 5px",
+              height: "300px",
+              width: "100%",
+            }}
+          ></iframe>
         </div>
         <div id="nko-log" style={{ backgroundColor: color }}>
           <h3>Site: {versions?.bundle}</h3>

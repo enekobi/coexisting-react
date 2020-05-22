@@ -21,7 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
+        {/* <script
           id="app"
           src="http://localhost:3000/static/js/bundle.js"
           type="text/javascript"
@@ -32,7 +32,7 @@ export default function HTML(props) {
           src="http://localhost:3000/static/js/0.chunk.js"
           type="text/javascript"
           async
-        />
+        /> 
         <script
           id="chunk"
           src="http://localhost:3000/static/js/1.chunk.js"
@@ -44,7 +44,7 @@ export default function HTML(props) {
           src="http://localhost:3000/static/js/main.chunk.js"
           type="text/javascript"
           async
-        />
+        /> */}
       </body>
     </html>
   )

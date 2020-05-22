@@ -23,6 +23,7 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const styles = {}
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />

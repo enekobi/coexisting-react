@@ -7,9 +7,14 @@ A project to test how different React versions can coexist in a same site. The p
 ## Issues (notes shown in the screen)
 
 1. Styles
-2. Wathc out with assets. Could not be added to the bundle by default
+2. Watch out with assets. Could not be added to the bundle by default
 3. Element ids
 4. Race condition when attaching app to site's #root elem.
+
+## Updates!!
+
+We have changed the site to load the **wrapped-app inside an iframe. The styles that were overwritting before aren't now, so both apps are running on trully insulated environments.**
+![oniframe](./oniframe.png)
 
 ## To run
 
@@ -17,3 +22,4 @@ A project to test how different React versions can coexist in a same site. The p
 2. Install both folders (some-site and wrapped-app) dependencies
 3. run `yarn dev` from the root folder.
 4. Once up, go to http://localhost:8000
+
